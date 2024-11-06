@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+</head>
+
+<style>
+
+    header{
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        background-image: url('fundo.jpg');
+    }
+    .form{
+        margin: 0 auto;
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: #fff;
+        background: linear-gradient(#191818, #d21617);
+        font-size: 18px;
+        font-weight: bold;
+
+        }
+
+        input{
+            height: 20px;
+            border-radius: 5px;
+            
+        }
+
+        textarea{
+            border-radius: 5px;
+            font-size: 13px;
+        }
+
+        .button{
+            width: 140px;
+            margin-top: 5px;
+            padding: 5px;
+            border-radius: 5px;
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+        }
+
+        .button:hover{
+            background-color: #601e31;
+            color: #fff;
+            cursor: pointer;
+
+        }
+
+        .comentarios-container{
+           width: 100%;
+           display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        
+        
+
+           
+        
+            
+           
+        }
+
+        .comentarios{
+            width: 100%;
+            display: grid;
+            justify-content: space-around;
+
+            
+
+            
+    
+            
+
+           
+
+
+        }
+</style>
+<body>
+        <header>
+            <h1>Comentários</h1>
+        </header>
+        
+        <div class="form">
+            <form  action="" method="post" >
+                <h3>Coloque seu comentário:</h3>
+                Nome: <input type="text" name="nome" size="30" placeholder="digite seu nome completo" required="obrigatorio!"><br><br>
+                Comentário:
+                <br>
+                <textarea name="msg" id="" cols="36" rows="4" placeholder="digite a menssagem"></textarea><br>
+                <button class="button" type="submit">Enviar comentário</button> 
+                <button class="button" type="reset">Limpar Tudo</button>
+            </form>
+        </div>
+        <h4>COMENTÁRIOS:</h4>
+        <div class="comentarios-container">
+            <div class="comentarios">
+                <label for="name" style="font-weight: bold;">Lucas</label>
+                <textarea style="display: block;" name="msg" id="" cols="60" rows="10" ></textarea>
+                <label for="name" style="font-weight: bold;">Marcelo</label>
+                <textarea style="display: block;" name="msg" id="" cols="60" rows="10" ></textarea>
+                <label for="name" style="font-weight: bold;">Patrícia</label>
+                <textarea style="display: block;" name="msg" id="" cols="60" rows="10" ></textarea>
+                <label for="name" style="font-weight: bold;">Gustavo</label>
+                <textarea style="display: block;" name="msg" id="" cols="60" rows="10" ></textarea>
+            </div>
+        </div>
+</body>
+</html>
+    
+
+            
+
+
+        

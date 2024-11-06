@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+   background: linear-gradient( #191818 71%, #d21617);
+}
+header{
+    display: flex;
+    background-image: url('fundo.jpg');
+    height: 85px;
+    
+   
+}
+
+h1{
+    margin: 25px;
+    margin-left: 50px;
+    color: #fff;
+
+   
+}
+.fotos-column-container{
+    margin: 1px;
+    
+    
+}
+
+.imagem-container{
+   margin: 2px;
+   background-size: cover;
+   display: grid;
+   grid-template-columns: repeat(3, 0.5fr);
+   grid-template-rows: repeat(2, 400px);
+
+}
+
+.img{
+    border: #191818 2px solid;
+    display: grid;
+    background-size: cover;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.traller{
+    height: 350px;
+    width: 450px;
+}
+.foto-1{
+    background-image: url('https://s2-g1.glbimg.com/P6-Gw0KmcFCO3ZHlSX06vVGdB0Y=/0x0:6000x4000/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/m/U/1UvLUASZAevRCb1TBygQ/the-batman-robert-pattinson.jpeg');
+}
+
+.foto-2{
+    background-color: black;
+}
+
+.foto-3{
+    background-image: url('https://i0.wp.com/br.nacaodamusica.com/wp-content/uploads/2022/03/the_batman-800x540.jpg');
+}
+
+.foto-4{
+    background-image: url('https://johto.legiaodosherois.com.br/wp-content/uploads/2020/08/legiao_xUuP7vKEwbTR.jpg');
+}
+
+.foto-5{
+    background-image: url('https://s2-techtudo.glbimg.com/JJHyy0rGi_g237vgQNc6CEB0VOI=/0x0:1100x729/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/F/a/kJNrAtQeOdj71JcwAI0Q/the-batman-o-filme.jpg');
+    
+}
+
+.foto-6{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZO2cghwQCFpX40cn3GBCRwf0kqVrGE2F0L1qbNYyDWciB3INSxzxsI37SooyOwNpEgtI&usqp=CAU');
+}
+footer{
+    margin: 10px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-color: #191818;
+    
+    margin-bottom: 500px ;
+}
+
+.button{
+    width: 150px;
+    height: 40px;
+    border: #fff 2px solid;
+    border-radius: 5px;
+    background-color: #d21617;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
